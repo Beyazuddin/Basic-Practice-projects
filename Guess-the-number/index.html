@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Guess The Number</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="all.css" />
+        <script src="app.js" defer></script>
+    </head>
+
+    <body>
+        <header class="head">
+            <a href="https://www.youtube.com" target="_blank"><img
+                src="/img/games_gues.png"
+                alt="logo"
+                height="120px"
+                width="300px"
+            /></a>
+            
+            <div class="high-score">
+                <i class="fa-solid fa-trophy"></i>
+                Highest Score:
+                <span class="final-high-score">0</span>
+            </div>
+        </header>
+        <main class="main-section">
+            <section class="main">
+                <h1>Guess The Number!</h1>
+                <p class="message">Guess a number between 1-20</p>
+                <div class="secret-number"><span>?</span></div>
+            </section>
+            <section class="number-section">
+                <input
+                    type="number"
+                    class="input-number"
+                    placeholder="Enter Your Guessed Number"
+                    max="20"
+                    min="0"
+                /><br />
+                <button class="check-btn">Check</button>
+                <button class="new-game">New Game</button>
+            </section>
+            <section class="score-section">
+                <div class="score-div">
+                    <p>Current Score: <span id="current-score">20</span></p>
+                    <p>
+                        attempt left: <span id="total-attempts-left">10</span>
+                    </p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
 
