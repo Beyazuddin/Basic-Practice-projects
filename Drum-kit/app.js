@@ -10,3 +10,14 @@ window.addEventListener("keydown", (event) => {
     }
     return;
 });
+let kk= document.querySelectorAll(".key");
+kk.forEach((e) => {
+    e.addEventListener("transitionend", remove);
+});
+
+function remove(k) {
+    if ((k.propertyName = "transform")) {
+        this.classList.remove("playing");
+    }
+    return;
+}
