@@ -13,3 +13,8 @@ buttonElement.addEventListener("click", () => {
     copyBtnElement.style.backgroundColor = inputElementColor;
 });
 
+copyBtnElement.addEventListener("click", () => {
+    const inputHexColor = inputElement.select();
+
+    navigator.clipboard.writeText(inputElement.value);
+});
