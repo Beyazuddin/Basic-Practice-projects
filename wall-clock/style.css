@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(89, 73, 89);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 10px 20px 100px rgb(231, 185, 185);
+    background-color: rgb(91, 91, 91);
+}
+
+.container span {
+    position: absolute;
+    inset: 30px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+.rotate1 {
+    position: relative;
+    transform: rotate(30deg);
+    color: chartreuse;
+}
+.rotate2 {
+    position: relative;
+    transform: rotate(60deg);
+    color: brown;
+}
+.rotate3 {
+    position: relative;
+    transform: rotate(90deg);
+    color: aqua;
+}
+.rotate4 {
+    position: relative;
+    transform: rotate(120deg);
+    color: blueviolet;
+}
+.rotate5 {
+    position: relative;
+    transform: rotate(150deg);
+    color: coral;
+}
+.rotate6 {
+    position: relative;
+    transform: rotate(180deg);
+    color: rgb(253, 101, 131);
+}
+.rotate7 {
+    position: relative;
+    transform: rotate(210deg);
+    color: darkorange;
+}
+.rotate8 {
+    position: relative;
+    transform: rotate(240deg);
+    color: magenta;
+}
+.rotate9 {
+    position: relative;
+    transform: rotate(270deg);
+    color: gold;
+}
+.rotate10 {
+    position: relative;
+    transform: rotate(300deg);
+    color: darkblue;
+}
+.rotate11 {
+    position: relative;
+    transform: rotate(330deg);
+    color: lightblue;
+}
+.rotate12 {
+    position: relative;
+    color: rgb(254, 196, 50);
+}
