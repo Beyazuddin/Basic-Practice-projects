@@ -93,3 +93,81 @@ body {
     position: relative;
     color: rgb(254, 196, 50);
 }
+
+.one {
+    transform: rotate(-30deg);
+}
+.two {
+    transform: rotate(-60deg);
+}
+.three {
+    transform: rotate(-90deg);
+}
+.four {
+    transform: rotate(-120deg);
+}
+.five {
+    transform: rotate(-150deg);
+}
+.six {
+    transform: rotate(-180deg);
+}
+.seven {
+    transform: rotate(-210deg);
+}
+.eight {
+    transform: rotate(-240deg);
+}
+.nine {
+    transform: rotate(-270deg);
+}
+.ten {
+    transform: rotate(-300deg);
+}
+.eleven {
+    transform: rotate(-330deg);
+}
+.point {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+.point span {
+    height: 105px;
+    width: 3px;
+    background-color: bisque;
+}
+
+.second{
+    position: absolute;
+    top: 70px;
+    width: 5px;
+    height: 130px;
+    background-color: rgb(249, 10, 10);
+    border-radius: 20px;
+    transform-origin: bottom;
+   
+}
+
+.minute {
+    position: absolute;
+    width: 5px;
+    top: 100px;
+    height: 100px;
+    background-color: rgb(200, 239, 70);
+    border-radius: 20px;
+    transform-origin: bottom;
+}
+
+.hour {
+    position: absolute;
+    top: 130px;
+    width: 5px;
+    height: 70px;
+    background-color: rgb(67, 175, 175);
+    border-radius: 20px;
+    transform-origin: bottom;
+}
